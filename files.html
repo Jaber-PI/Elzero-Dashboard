@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Files</title>
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- normalize css style -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- css style main file  -->
+    <link rel="stylesheet" href="css/master.css" />
+    <!-- css framework file  -->
+    <link rel="stylesheet" href="css/framework.css" />
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex contaner">
+      <div class="side-bar bg-white p-1 p-sm-2 position-relative">
+        <h3 class="text-center position-relative">Elzero</h3>
+        <ul>
+          <li>
+            <a
+              class="d-flex align-items-center fs-1 color-black b-radius-6 p-1"
+              href="index.html"
+            >
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span class="ms-1 d-none d-sm-inline-block">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-items-center fs-1 color-black b-radius-6 p-1"
+              href="settings.html"
+            >
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span class="ms-1 d-none d-sm-inline-block">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-items-center fs-1 color-black b-radius-6 p-1"
+              href="profile.html"
+            >
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span class="ms-1 d-none d-sm-inline-block">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-items-center fs-1 color-black b-radius-6 p-1"
+              href="projects.html"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span class="ms-1 d-none d-sm-inline-block">Projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-items-center fs-1 color-black b-radius-6 p-1"
+              href="courses.html"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span class="ms-1 d-none d-sm-inline-block">Courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-items-center fs-1 color-black b-radius-6 p-1"
+              href="friends.html"
+            >
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span class="ms-1 d-none d-sm-inline-block">Friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="active d-flex align-items-center fs-1 color-black b-radius-6 p-1"
+              href="files.html"
+            >
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span class="ms-1 d-none d-sm-inline-block">Files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-items-center fs-1 color-black b-radius-6 p-1"
+              href="plans.html"
+            >
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span class="ms-1 d-none d-sm-inline-block">Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <main class="w-100">
+        <div
+          class="head bg-white p-2 d-flex align-items-center justify-content-between"
+        >
+          <div class="search position-relative">
+            <input
+              class="b-radius-6 p-1 fs-1"
+              type="text"
+              placeholder="Type A Keyword"
+            />
+          </div>
+          <div class="icons d-flex align-items-center">
+            <div class="notification position-relative">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </div>
+            <div class="avatar">
+              <img class="mw-100 ms-1" src="imgs/avatar.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <h1 class="p-2 position-relative">Files</h1>
+        <div class="files-page d-flex flex-column flex-sm-row-rev gap-1 p-2">
+          <div class="files-stats p-2 bg-white b-radius-6 ">
+            <h2 class="mb-2 text-center text-sm-left ">Files Statistics</h2>
+            <div class="d-flex align-items-center p-1 b-radius-6 mb-1 fs-1">
+              <i
+                class="fa-regular fa-file-pdf fa-lg blue bg-light-blue color-blue icon"
+              ></i>
+              <div class="info">
+                <span>PDF Files</span>
+                <span class="color-grey d-block">130</span>
+              </div>
+              <div class="size color-grey">6.5GB</div>
+            </div>
+            <div class="d-flex align-items-center p-1 b-radius-6 mb-1 fs-1">
+              <i
+                class="fa-regular fa-images fa-lg green bg-light-green color-green icon"
+              ></i>
+              <div class="info">
+                <span>Images</span>
+                <span class="color-grey d-block">115 Files</span>
+              </div>
+              <div class="size color-grey">3.5GB</div>
+            </div>
+            <div class="d-flex align-items-center p-1 b-radius-6 mb-1 fs-1">
+              <i
+                class="fa-regular fa-file-word fa-lg red bg-light-red color-red icon"
+              ></i>
+              <div class="info">
+                <span>Word Files</span>
+                <span class="color-grey d-block">110 Files</span>
+              </div>
+              <div class="size color-grey">3.2GB</div>
+            </div>
+            <div class="d-flex align-items-center p-1 b-radius-6 mb-1 fs-1">
+              <i
+                class="fa-solid fa-file-csv fa-lg orange bg-light-orange color-orange icon"
+              ></i>
+              <div class="info">
+                <span>CSV Files</span>
+                <span class="color-grey d-block">99 Files</span>
+              </div>
+              <div class="size color-grey">2.9GB</div>
+            </div>
+            <a
+              class="upload bg-blue color-white p-1 fs-1 b-radius-6 d-block m-auto"
+              href="#"
+            >
+              <i class="fa-solid fa-angles-up"></i>
+              Upload
+            </a>
+          </div>
+          <div class="files d-grid gap-1">
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/pdf.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.pdf</div>
+              <p class="color-grey fs-1">Elzero</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/avi.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.avi</div>
+              <p class="color-grey fs-1">Admin</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>12.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/eps.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.eps</div>
+              <p class="color-grey fs-1">Uploader</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>2.7MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/psd.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.psd</div>
+              <p class="color-grey fs-1">Osama</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>15.1MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/dll.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.dll</div>
+              <p class="color-grey fs-1">Coder</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>2.2MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/png.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.png</div>
+              <p class="color-grey fs-1">Designer</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>1.1MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/dll.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.dll</div>
+              <p class="color-grey fs-1">Coder</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>2.2MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/png.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.png</div>
+              <p class="color-grey fs-1">Designer</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>1.1MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/psd.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.psd</div>
+              <p class="color-grey fs-1">Osama</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>15.1MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/pdf.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.pdf</div>
+              <p class="color-grey fs-1">Elzero</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/avi.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.avi</div>
+              <p class="color-grey fs-1">Admin</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>12.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/eps.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.eps</div>
+              <p class="color-grey fs-1">Uploader</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>2.7MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/pdf.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.pdf</div>
+              <p class="color-grey fs-1">Elzero</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/avi.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.avi</div>
+              <p class="color-grey fs-1">Admin</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>12.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/eps.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.eps</div>
+              <p class="color-grey fs-1">Uploader</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>2.7MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/psd.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.psd</div>
+              <p class="color-grey fs-1">Osama</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>15.1MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/dll.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.dll</div>
+              <p class="color-grey fs-1">Coder</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>2.2MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/png.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.png</div>
+              <p class="color-grey fs-1">Designer</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>1.1MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/dll.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.dll</div>
+              <p class="color-grey fs-1">Coder</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>2.2MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/png.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.png</div>
+              <p class="color-grey fs-1">Designer</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>1.1MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/psd.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.psd</div>
+              <p class="color-grey fs-1">Osama</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>15.1MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/pdf.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.pdf</div>
+              <p class="color-grey fs-1">Elzero</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/avi.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.avi</div>
+              <p class="color-grey fs-1">Admin</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>12.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-2 b-radius-6">
+              <i class="fa-solid fa-download color-grey p-absolute"></i>
+              <div class="icon text-center">
+                <img class="mt-1 mb-1" src="imgs/eps.svg" alt="" />
+              </div>
+              <div class="text-center mb-1">my-file.eps</div>
+              <p class="color-grey fs-1">Uploader</p>
+              <div class="info d-flex justify-content-between align-items-center mt-1 pt-1 fs-1 color-grey">
+                <span>16/5/2021</span>
+                <span>2.7MB</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
